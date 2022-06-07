@@ -1,0 +1,73 @@
+/*-------------------Estilos generales-----------------------*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+i {
+    font-size: 160%;
+}
+p {
+    font-size: 0.8em;
+}
+body {
+    margin: 0;
+    height: 100%
+}
+div.container {
+    background-color: black;
+}
+div.post {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
+
+/*-------------------Estilos del post-header-----------------------*/
+
+div.post-header {
+    display: flex;
+    padding: 7px;
+}
+
+div.post-header div:first-child, div.post-header div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8%;
+}
+
+div.post-header div:first-child + div {
+    width: 83%;
+    padding-left: 5px;
+}
+div.post-header p {
+    margin: 0;
+}
+
+/*-------------------Estilos del post-body-----------------------*/
+
+
+div.simbolos {
+    display: flex;
+}
+
+div.simbolos div {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+div.simbolos div:last-child {
+    width: 70%;
+}
+div.simbolos div i {
+    margin: auto;
+}
+div.simbolos div:last-child {
+    padding-left: 60%;
+}
+div.post-body div p {
+    padding: 10px;
+    margin: 0;
+    text-align: justify;
+}
